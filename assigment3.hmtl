@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>
+		TEXT
+	</title>
+</head>
+<p style="background-image: url('https://www.macmillandictionary.com/external/slideshow/thumb/Grey_thumb.png');">
+
+	<br />
+	<h3 align="center">
+		<font face="Lato" size="6">LOGO</font>
+
+		<font face="cinzel" size="4">
+			<a href="#">TEXT</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="#">TEXT</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="#">TEXT</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="#">TEXT</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="#">TEXT</a>
+		</font>
+	</h3>
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<h1 align="center">
+		<font face="Lato" color="#017bf5" size="7">
+			TEXT
+		</font>
+	</h1>
+	<h3 align="center">
+		<font face="Lato" color="#000" size="2">
+
+		</font>
+	</h3>
+	<br />
+	<h3 align="center">
+	<a href="#">
+		<font face="Lato" color="#000">TEXT</font>
+	</a>&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="#">
+		<font face="Lato" color="#fff">TEXT</font>
+	</a>
+	</h3>
+
+
+<div id="circle"></div>
+
+</body>
+</html>
