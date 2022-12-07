@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Brandan Quach</title>
+
+<link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Indie+Flower'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<div class="wrapper">
+  <input type="checkbox" name="nav-check" id="nav-check" />
+  <section class="sec-about" id="sec-about">
+    <div class="content">
+
+      <div class="calendar">
+   <div class="calendar-body">
+     <span class="month-name">Month</span>
+     <span class="day-name">Day</span>
+     <span class="date-number">00</span>
+     <span class="year">0000</span>
+   </div>
+ </div>
+
+&ensp;
+
+      <p> Portfolios need to represent you and show your work and information about you as best as possible. As I progress with my studies in IASC I wanted to keep a record of my past assignments and work so I can reflect on myself and improve as time goes on. I went with a simplistic and modern design that is very minimalist. I wanted to keep this website to a queue making it not too overcomplicated. I often find websites with too much on them just not visually appealing.
+
+For my first page, I wanted to easily show what the viewer is here for, My portfolio. My homepage is a little introduction to me saying hello and giving them a glimpse of who I am before they get to fully look into my website. I then have texts under it that are linked to the about me page and my work page. I wanted to hyperlink it within the text for a more simplistic look. The “Who” links to the about me page that discusses who I am and the “My real” links to the portfolio page that shows my real work. The colors I used for the main page are toned white, gunmetal grey, and black. The colors are really resting on the eyes. I used contrast on the first page by making the background a simplistic white color. The white background makes the text really shine and pop out as it's what I want the viewer to see. The black and gunmetal text forces the viewer to look at them. I then made the Text centered and really big. When you open the website it's directly in front of your face to read. I feel as if the font I used is really good and common. Not too strong or light it quickly guides the reader’s eye from letter to letter which I very much like “Bolding” the text.
+
+For my second page, I wanted it to be about me showing information about me and a picture of me to get a visual of who they are reading about. It also has the current date just to update people as to what day it was today. The way I wanted to lay out this page was centered text so it's directly in front of the viewer's face. For contrasts, I didn't want to use a basic black as most of my page had black text so I went with gunmetal. This color is dark enough to be seen with a light-colored background. The background is a light-tone color called “Pewter” it really pops the main text color out.
+For my third page, I wanted it to be almost fully dedicated to work. This page shows my artwork and the real work I've done. The way I designed this page was to have my artwork in equal square blocks taking up the majority of the screen. I have very little text under it so the viewer focuses on my work rather than only reading the text. I decided to put a white tint over everything so that when hovering your mouse over the work it glows putting the specific work into the spotlight.
+
+</p>
+
+&ensp;
+
+<img src="https://static.wixstatic.com/media/7fa7ba_c9804cd67c524cee9ce5dedb82ddc100~mv2.jpg" alt="Brandan Quach" width="200" height="200">
+
+    </div>
+  </section>
+  <section class="sec-portfolio" id="sec-portfolio">
+    <div class="row">
+      <div class="col-big"><img src="https://static.wixstatic.com/media/7fa7ba_087f6de6ab6841edadfb79b54fb56d1c~mv2.jpg" alt="brandan" /></div>
+      <div class="col-big"><img src="https://static.wixstatic.com/media/7fa7ba_3ccb0157781046df90585b4c7f7a8299~mv2.jpg" alt="Brandan Quach" /></div>
+    </div>
+    <div class="row">
+      <div class="col-big"><img src="https://static.wixstatic.com/media/7fa7ba_697c6c5f9d874ec99e275b04c5ccfccd~mv2.jpg" alt="Brandan Quach" /></div>
+      <div class="col-big"><img src="https://static.wixstatic.com/media/7fa7ba_b34bf4a83f854ac182ef6823fbbc7435~mv2.jpg" alt="Brandan Quach" /></div>
+
+    <div class="row">
+
+      <div class="col-big"><img src="https://static.wixstatic.com/media/7fa7ba_1854518668144fc9b9ec37123027ff77~mv2.jpg" alt="Brandan Quach" /></div>
+      <div class="col-big"><img src="https://static.wixstatic.com/media/7fa7ba_617579b6a4be4f51b2afe8330b7fa630~mv2.jpg" alt="Brandan Quach" /></div>
+
+      <div class="row">
+
+        <div class="col-big"><img src="https://static.wixstatic.com/media/7fa7ba_6b21df013df243d6abe3017f03e05f08~mv2.jpg" alt="Brandan Quach" /></div>
+        <div class="col-big"><img src="https://static.wixstatic.com/media/7fa7ba_cc804124556649869abe40caa53925ab~mv2.jpg" alt="Brandan Quach" /></div>
+
+        <div class="row">
+
+          &ensp;&ensp;
+            <h1>This is all my real work!</h1>
+
+    </ul>
+  </section>
+  <section class="sec-home" id="sec-home">
+    <div class="content">
+      <h1>Hello World! Welcome To Brandan's Portfolio</h1>
+      <h2><a href="#sec-about">Who</a> am I?</h2>
+      <h2><a href="#sec-portfolio">My real</a> Work</h2>
+
+
+ <script type="text/javascript">
+ const dayNumber = new Date().getDate();
+ const year = new Date().getFullYear();
+ const dayName = new Date().toLocaleString("default", {weekday: "long"});
+ const monthName = new Date().toLocaleString("default", {month: "long"});
+
+ document.querySelector(".month-name").innerHTML = monthName;
+ document.querySelector(".day-name").innerHTML = dayName;
+ document.querySelector(".date-number").innerHTML = dayNumber;
+ document.querySelector(".year").innerHTML = year;
+ </script>
+
+    </div>
+  </section>
+  <nav role="navigation">
+    <label for="nav-check"></label>
+    <ul class="navigation">
+      <li><a href="#sec-home">main</a></li>
+      <li><a href="#sec-about">about</a></li>
+      <li><a href="#sec-portfolio">my work</a></li>
+
+    </ul>
+  </nav>
+</div>
+
+  <script  src="./script.js"></script>
+
+</body>
+</html>
